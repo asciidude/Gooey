@@ -1,4 +1,5 @@
 import React, { FormEvent, ReactElement, useState } from 'react'
+import Link from 'next/link'
 
 interface Props {
     
@@ -64,7 +65,7 @@ export default function Register({}: Props): ReactElement {
                 <br />
                 {/* <!-- Register Option --> */}
                 <p>
-                    <p>Or you can login <a href="/login" className="light-bold">here</a>.</p>
+                    <p>Or you can login <Link href="/login" ><a className="light-bold">here</a></Link>.</p>
                 </p>
             </form>
         </div>
