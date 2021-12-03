@@ -5,7 +5,7 @@ Unfortunately, Gooey has to run on Electron.
 
 ## Initialization
 
-Due to the use of yarn, just run `yarn` to install all dependencies. You may also install each of them individually from this list here:
+Due to the use of yarn, just run `yarn` to install all dependencies. You may also install each of them individually from this command here:
 
 ```
 yarn add dotenv ejs ejs-lint express mongoose passport passport-google-ouath
