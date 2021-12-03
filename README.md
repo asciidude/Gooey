@@ -28,6 +28,6 @@ When contributing, ensure to follow this set of guidelines:
 <*All changes (do not include major)>
 ```
 
-Ensure you include **all** changes
+Ensure you include **all** changes made, or your PR will not be accepted
 
 ### :copyright: Gooey - All rights reserved
