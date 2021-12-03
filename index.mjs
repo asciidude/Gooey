@@ -14,8 +14,4 @@ app.get('/', (req, res) => {
     res.render('index', { user: req.user });
 });
 
-app.listen(process.env.PORT || 8000, () =>
-    console.log(`Now listening on port ${process.env.PORT || 8000}`)
-);
-
 export default app;
