@@ -2,7 +2,6 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 import express from 'express';
-import serverless from 'serverless-http';
 const app = express();
 
 import mongoose from 'mongoose';
@@ -15,4 +14,6 @@ app.get('/', (req, res) => {
     res.render('index', { user: req.user });
 });
 
-export const handler = serverless(app);
+app.listen(process.env.PORT || 8000, () =>
+    console.log(`Listening on ${process.env.PORT || 8000}`)
+);
