@@ -4,7 +4,7 @@ service: my-express-application
 
 provider:
   name: vercel
-  runtime: nodejs14.0.0
+  runtime: nodejs14.x
   stage: prod
   region: us-east-1
 
