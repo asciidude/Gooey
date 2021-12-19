@@ -1,0 +1,16 @@
+# serverless.yml
+
+service: my-express-application
+
+provider:
+  name: vercel
+  runtime: nodejs14.x
+  stage: prod
+  region: us-east-1
+
+functions:
+  app:
+    handler: index.handler
+    events:
+      - http: ANY /
+      - http: 'ANY {proxy+}'

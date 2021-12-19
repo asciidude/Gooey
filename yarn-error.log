@@ -1,0 +1,45 @@
+Arguments: 
+  D:\Node\node.exe D:\yarn\bin\yarn.js add express ejs mongoose passport passport-google-ouath
+
+PATH: 
+  C:\Program Files\Oculus\Support\oculus-runtime;D:\VMWARE\bin\;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Eziriz\.NET Reactor;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_201\bin;D:\Python;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Users\james\AppData\Local\Microsoft\WindowsApps;C:\Users\james\.dotnet\tools;C:\Program Files\Git LFS;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\webdrivers;C:\Program Files\Git\cmd;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\PuTTY\;C:\chromedriver;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\WorldPainter;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\yarn\bin\;D:\Node\;C:\Users\james\.cargo\bin;C:\Program Files\Oculus\Support\oculus-runtime;D:\VMWARE\bin\;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Eziriz\.NET Reactor;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_201\bin;D:\Python;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Users\james\AppData\Local\Microsoft\WindowsApps;C:\Users\james\.dotnet\tools;C:\Program Files\Git LFS;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\webdrivers;C:\Program Files\Git\cmd;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\PuTTY\;C:\chromedriver;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\WorldPainter;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\yarn\bin\;D:\Node\;C:\Users\james\AppData\Local\bin\NASM;C:\Users\james\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\james\AppData\Local\Keybase\;C:\Program Files\qemu;C:\Users\james\AppData\Local\Microsoft\WindowsApps;D:\winfetch-2.2.0;C:\Users\james\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\james\.dotnet\tools
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/passport-google-ouath: Not found
+      at Request.params.callback [as _callback] (D:\yarn\lib\cli.js:66097:18)
+      at Request.self.callback (D:\yarn\lib\cli.js:140749:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (D:\yarn\lib\cli.js:141721:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (D:\yarn\lib\cli.js:141643:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "gooey",
+    "version": "0.0.1",
+    "description": "The less bloated chat app",
+    "main": "index.js",
+    "repository": "https://www.github.com/asciidude/Gooey",
+    "author": "<sickspamemail@gmail.com>",
+    "license": "MIT",
+    "private": false
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
