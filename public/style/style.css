@@ -49,7 +49,7 @@ body {
 	position: relative;
 }
 
-.server--icon.active:before {
+.server--icon.active:before img {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -58,6 +58,11 @@ body {
 	height: 46px;
 	border-radius: 33px;
 	margin-left: -19px;
+}
+
+.channels--list-content-item.active {
+    background: #555b6157;
+    color: white;
 }
 
 .server--icon:hover {
@@ -91,6 +96,7 @@ body {
 }
 
 .channels nav {
+    cursor: pointer;
 	color: white;
 	border-bottom: 2px solid #2c2e31;
 	display: flex;
@@ -133,6 +139,7 @@ body {
 	padding: 5px 10px;
 	margin: 0 5px;
 	border-radius: 5px;
+    margin-top: 2px;
 }
 
 .channels--list-content-item:hover {
@@ -158,6 +165,10 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.user {
+    cursor: pointer;
 }
 
 .channels--userArea .name {
@@ -191,6 +202,7 @@ body {
 	margin-left: 0;
     padding: 5px;
     font-size: 17px;
+    cursor: pointer;
 }
 
 .channels--userArea .icons span {
@@ -253,6 +265,7 @@ body {
 	border: 0;
 	border-radius: 10px;
 	padding: 10px;
+    color: white;
 }
 
 .members {
@@ -261,4 +274,8 @@ body {
 	padding: 15px;
 	color: white;
 	background: var(--color-grey-channel);
+}
+
+.members p {
+    cursor: pointer;
 }
