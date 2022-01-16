@@ -34,4 +34,26 @@
                 border border-gray-200 dark:border-gray-800 rounded-full
                 mx-2;
     }
+
+    .sidebar-server-desc {
+        @apply bg-gray-900 text-center items-center p-5;
+    }
+
+    .sidebar-channel {
+        @apply relative flex items-center
+               h-5 w-60 mx-auto p-5 text-sm
+               hover:bg-gray-800
+               transition-all duration-150 ease-linear
+               cursor-pointer bg-gray-900;
+    }
+
+    .sidebar-user {
+        @apply bottom-0 p-5 bg-gray-900 
+               w-60 inline;
+    }
+
+    .sidebar-user-icon {
+        @apply inline h-11 w-11 mb-2 mx-auto
+               rounded-3xl;
+    }
 }
