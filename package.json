@@ -10,7 +10,8 @@
   "scripts": {
     "build:tailwindscss": "postcss public/style/tailwind.css -o public/style/styles.css",
     "watch:tailwinds": "postcss public/style/tailwind.css -o public/style/styles.css -w",
-    "start": "nodemon index.mjs"
+    "start": "node index.mjs",
+    "dev": "nodemon index.mjs"
   },
   "dependencies": {
     "autoprefixer": "^10.4.2",
