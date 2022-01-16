@@ -8,3 +8,4 @@ public/style/styles.css
 # node
 yarn.lock
 node_modules
+yarn-error.log
