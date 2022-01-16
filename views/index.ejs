@@ -1,97 +1,34 @@
-
-
 <!DOCTYPE html>
+
 <html lang="en">
     <head>
         <%- include('./partials/head.ejs') %>
     </head>
-    <body>
-        <div class="discordApp">
-            <div class="server">
-                <img src="/images/Gooey-nobg-white.png" class="server--icon" width="45px">
-                <div class="server--seperator"></div>
 
-                <img class="server--icon active" src="https://dummyimage.com/50x50/63b6ff/ffffff&text=a">
-
-                <div class="server--seperator"></div>
-                <div class="server--icon">
-                    <span class="fas fa-plus"></span>
-                </div>
+    <body class="bg-gray-800 font-Poppins text-white">
+        <div class="flex flex-wrap">
+            <div class="w-full sm:w-8/12 mb-10">
+              <div class="container mx-auto h-full sm:p-10">
+                <nav class="flex px-4 justify-between items-center">
+                  <div class="text-4xl font-bold mt-2 sm:mt-0">
+                    <img src="/images/Gooey.png" class="inline" width=35>
+                    <p class="inline">Gooey<span class="text-blue-700">.</span></p>
+                  </div>
+                  <div>
+                    <img src="https://image.flaticon.com/icons/svg/497/497348.svg" alt="" class="w-8">
+                  </div>
+                </nav>
+                <header class="container px-4 lg:flex mt-10 items-center h-full lg:mt-0">
+                  <div class="w-full">
+                    <h1 class="text-4xl lg:text-6xl font-bold">Find <span class="text-blue-700">new friends</span> and chat in communities</h1>
+                    <div class="w-20 h-2 bg-blue-700 my-4"></div>
+                    <p class="text-xl mb-10">Gooey is a chat web application, built to be much faster and more enjoyable than other chat apps out there. If that hasn't sold you already, take a look for yourself!</p>
+                    <button class="bg-blue-700 text-white text-2xl font-medium px-4 py-2 rounded shadow">Sign up</button>
+                  </div>
+                </header>
+              </div>
             </div>
-            <div class="chatOuter">
-                <div class="channels">
-                    <nav>
-                        <h3>asciidude's server</h3>
-                        <span class="fas fa-chevron-down"></span>
-                    </nav>
-                    <div class="channels--list">
-                        <div class="channels--list-item">
-                            <div class="channels--list-header">
-                                <h4><span></span>Text Channels</h4>
-                            </div>
-                            <div class="channels--list-content">
-                                <div class="channels--list-content-item active">
-                                    <span>#</span>
-                                    <h5>general</h5>
-                                </div>
-                                <div class="channels--list-content-item">
-                                    <span>#</span>
-                                    <h5>sus</h5>
-                                </div>
-                                <div class="channels--list-content-item">
-                                    <span>#</span>
-                                    <h5>AGGHHHHH</h5>
-                                </div>
-                                <div class="channels--list-content-item">
-                                    <span>#</span>
-                                    <h5>hi</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="channels--userArea">
-                        <div class="name">
-                            <img class="userIcon" src="/images/no-pfp.png">
-
-                            <div class="user">
-                                <p class="h5">asciidude</p>
-                                <span class="subText">#0001</span>
-                            </div>
-                        </div>
-                        <div class="icons">
-                            <i class="fas fa-cog"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="chat">
-                    <nav>
-                        <div class="header">
-                            <span>#</span>
-                            <h2>
-                            general
-                            <h2>
-                        </div>
-                        <div class="icons">
-                            <a href="https://discord.gg/JMNaJrXMFq" class="fas fa-question-circle text-white text-decoration-none"></a>
-                        </div>
-                    </nav>
-                    <div class="chat--inner">
-                        <div class="messages">
-                            <div class="messages--received">
-                            </div>
-                            <div class="messages--send">
-                                <input type="text" placeholder="Input a message">
-                            </div>
-                        </div>
-                        <div class="members">
-                            <p>
-                                <img src="/images/no-pfp.png" width="25" class="rounded-circle">
-                                asciidude
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <img src="https://i.pinimg.com/736x/16/79/48/167948f3a6eebfc51eade36b8a3c89ba.jpg" alt="Leafs" class="w-full h-48 object-cover sm:h-screen sm:w-4/12">
+          </div>
     </body>
 </html>

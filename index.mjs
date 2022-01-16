@@ -18,6 +18,14 @@ app.get('/', (req, res) => {
     res.render('index', { user: req.user });
 });
 
+app.get('/app', (req, res) => {
+    res.render('app', { user: req.user });
+});
+
+app.get('/invite/:id', (req, res) => {
+    res.render('invite', { user: req.user });
+});
+
 server.listen(process.env.PORT || 8000, () =>
     console.log(`Listening on ${process.env.PORT || 8000}`)
 );
